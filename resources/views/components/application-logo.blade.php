@@ -1,0 +1,1 @@
+<img src="{{ asset('logo/bmw.png') }}" width="100px">
