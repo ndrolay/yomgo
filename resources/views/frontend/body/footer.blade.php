@@ -26,7 +26,7 @@ $allfooter = App\Models\Footer::find(1);
                             </div>
                             <div class="footer__widget__address">
                                 <p>{{ $allfooter->adress }}</p>
-                                <a href="mailto:{{ $allfooter->number }}" class="mail">{{ $allfooter->email }}/a>
+                                <a href="mailto:{{ $allfooter->email }}" class="mail">{{ $allfooter->email }}</a>
                             </div>
                         </div>
                     </div>
@@ -40,8 +40,8 @@ $allfooter = App\Models\Footer::find(1);
                             <div class="footer__widget__social">
                                 <p>Nek kulo mboten pripun pripun.</p>
                                 <ul class="footer__social__list">
-                                    <li><a href="{{ $allfooter->github }}"><i class="fa fa-github"></i></a></li>
-                                    <li><a href="{{ $allfooter->discord }}"><i class="fa-brands fa-discord"></i></a></li>
+                                    <li><a href="{{ $allfooter->github }}"><i class="fab fa-github"></i></a></li>
+                                    <li><a href="{{ $allfooter->discord }}"><i class="fab fa-discord"></i></a></li>
                                 </ul>
                             </div>
 
