@@ -22,7 +22,7 @@ $allfooter = App\Models\Footer::find(1);
                         <div class="footer__widget">
                             <div class="fw-title">
                                 <h5 class="sub-title">my address</h5>
-                                <h4 class="title">AUSTRALIA</h4>
+                                <h4 class="title">East Jakarta</h4>
                             </div>
                             <div class="footer__widget__address">
                                 <p>{{ $allfooter->adress }}</p>
