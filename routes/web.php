@@ -9,6 +9,7 @@ use App\Http\Controllers\Home\BlogCategoryController;
 use App\Http\Controllers\Home\BlogController;
 use App\Http\Controllers\Home\FooterController;
 use App\Http\Controllers\Home\ContactController;
+use App\Http\Controllers\Home\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,8 +22,13 @@ use App\Http\Controllers\Home\ContactController;
 |
 */
 
-Route::get('/', function () {
-    return view('frontend.index');
+// Route::get('/', function () {
+//    return view('frontend.index');
+// });
+
+// Home Alone
+Route::controller(HomeController::class)->group(function () {
+    Route::get('/', 'Home')->name('home');
 });
 
 // Admin Page
