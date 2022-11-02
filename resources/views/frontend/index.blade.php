@@ -1,6 +1,10 @@
 @extends('frontend.main_master')
 @section('main')
 
+@section('title')
+Home | Kancut Negro ZX
+@endsection
+
 <!-- banner-area -->
 @include('frontend.home_all.home_slide')
 <!-- banner-area-end -->

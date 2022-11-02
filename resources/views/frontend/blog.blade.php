@@ -1,6 +1,10 @@
 @extends('frontend.main_master')
 @section('main')
 
+@section('title')
+Blog | Kancut Negro ZX
+@endsection
+
 <main>
 
             <!-- breadcrumb-area -->
